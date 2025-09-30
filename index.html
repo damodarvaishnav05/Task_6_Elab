@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #444;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ddd;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            background: #f4f4f9;
+            margin: 8px 0;
+            padding: 10px 15px;
+            border-radius: 6px;
+            font-size: 15px;
+            color: #444;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <a href="/">Home</a> |
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>About Me</h2>
+            <p>Hello! I'm Damodar, a Python & Flask developer. I love building web applications and learning new technologies. This portfolio showcases my mini projects and skills.</p>
+        </div>
+
+        <div class="card">
+            <h2>Projects</h2>
+            <ul>
+                <li>Task 1 – To-Do App</li>
+                <li>Task 2 – Data Analysis</li>
+                <li>Task 3 – REST API</li>
+                <li>Task 6 – Portfolio Website</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

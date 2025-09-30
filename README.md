@@ -66,4 +66,8 @@ Image 4
 
 
 
+I will not lie i have used chat gpt because i don't know about Html and Css Also i have a bit knowledge about flask as well.
+
+
+
 
